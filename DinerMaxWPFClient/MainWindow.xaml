@@ -1,0 +1,29 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:DinerMaxWPFClient" x:Class="DinerMaxWPFClient.MainWindow"
+        Title="Diner Max 3000" Height="350" Width="525" WindowStartupLocation="CenterScreen">
+    <Window.DataContext>
+        <local:DinerMax3000ViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="190*"/>
+            <ColumnDefinition Width="327*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.ColumnSpan="2">
+            <ComboBox SelectedItem="{Binding SelectedMenu}" ItemsSource="{Binding AllMenus}" DisplayMemberPath="Name"/>
+            <DataGrid ItemsSource="{Binding SelectedMenu.items}"/>
+            <WrapPanel>
+                <Label>Title</Label>
+                <TextBox Width="150" Text="{Binding newMenuItem.Title}"/>
+                <Label>Price</Label>
+                <TextBox Width="50" Text="{Binding newMenuItem.Price}"/>
+            </WrapPanel>
+            <Label>Description</Label>
+            <TextBox Text="{Binding newMenuItem.Description}"/>
+            <Button></Button>
+        </StackPanel>
+
+    </Grid>
+</Window>
