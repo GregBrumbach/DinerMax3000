@@ -1,0 +1,21 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:WPFClient="clr-namespace:DinerMax3000.WPFClient" x:Class="DinerMax3000WPFClient.MainWindow"
+        Title="Diner Max 3000" Height="350" Width="525" WindowStartupLocation="CenterScreen">
+    <Window.DataContext>
+        <WPFClient:DinerMax3000ViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <StackPanel>
+            <ComboBox
+                Name="cboAllMenus"
+                ItemsSource="{Binding AllMenus}" 
+                DisplayMemberPath="Name"
+                SelectedItem="{Binding SelectedMenu}"/>
+            <DataGrid CanUserAddRows="True" ItemsSource="{Binding SelectedMenu.items}" RowEditEnding="DataGrid_RowEditEnding"/>
+            <WrapPanel/>
+            <Button Name="btnSave" Click="Button_Click">Save All New Menu Items</Button>
+        </StackPanel>
+    </Grid>
+</Window>

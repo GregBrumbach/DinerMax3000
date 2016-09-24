@@ -1,0 +1,17 @@
+D:\_Current\Git\DinerMax3000\DinerMax3000WPFClient\bin\Debug\DinerMax3000WPFClient.exe.config
+D:\_Current\Git\DinerMax3000\DinerMax3000WPFClient\bin\Debug\DinerMax3000WPFClient.exe
+D:\_Current\Git\DinerMax3000\DinerMax3000WPFClient\bin\Debug\DinerMax3000WPFClient.pdb
+D:\_Current\Git\DinerMax3000\DinerMax3000WPFClient\bin\Debug\DinerMax3000BusinessLayer.dll
+D:\_Current\Git\DinerMax3000\DinerMax3000WPFClient\bin\Debug\DinerMax3000BusinessLayer.pdb
+D:\_Current\Git\DinerMax3000\DinerMax3000WPFClient\obj\Debug\MainWindow.baml
+D:\_Current\Git\DinerMax3000\DinerMax3000WPFClient\obj\Debug\MainWindow.g.cs
+D:\_Current\Git\DinerMax3000\DinerMax3000WPFClient\obj\Debug\App.g.cs
+D:\_Current\Git\DinerMax3000\DinerMax3000WPFClient\obj\Debug\DinerMax3000WPFClient_MarkupCompile.cache
+D:\_Current\Git\DinerMax3000\DinerMax3000WPFClient\obj\Debug\DinerMax3000WPFClient.g.resources
+D:\_Current\Git\DinerMax3000\DinerMax3000WPFClient\obj\Debug\DinerMax3000.WPFClient.Properties.Resources.resources
+D:\_Current\Git\DinerMax3000\DinerMax3000WPFClient\obj\Debug\DinerMax3000WPFClient.csproj.GenerateResource.Cache
+D:\_Current\Git\DinerMax3000\DinerMax3000WPFClient\obj\Debug\DinerMax3000WPFClient.exe
+D:\_Current\Git\DinerMax3000\DinerMax3000WPFClient\obj\Debug\DinerMax3000WPFClient.pdb
+D:\_Current\Git\DinerMax3000\DinerMax3000WPFClient\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\_Current\Git\DinerMax3000\DinerMax3000WPFClient\obj\Debug\DinerMax3000WPFClient_MarkupCompile.lref
+D:\_Current\Git\DinerMax3000\DinerMax3000WPFClient\obj\Debug\DinerMax3000WPFClient.csprojResolveAssemblyReference.cache
